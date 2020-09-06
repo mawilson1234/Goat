@@ -69,10 +69,9 @@ newTrial("instruction",
         .wait()
 )
 
-
 PennController.Template("practice.csv", variable => ["trial_prac",
 
-        "DashedSentenceBig", {s: variable.Sentence, mode: 'speeded acceptability', display: "in place", wordTime: 450}
+        "DashedSentenceBig", {s: variable.Sentence, display: "in place", wordTime: 450}
         ,
         
         "PennController", PennController(
@@ -199,7 +198,7 @@ newTrial("instruction2",
 )
 
 PennController.Template("stim_exp.csv", variable => ["trial_exp",
-        "DashedSentenceBig", {s: variable.Sentence, mode: 'speeded acceptability', display: "in place", wordTime: 450}
+        "DashedSentenceBig", {s: variable.Sentence, display: "in place", wordTime: 450}
         ,
         
         "PennController", PennController(
@@ -314,7 +313,7 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
 
 PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
 
-        "DashedSentenceBig", {s: variable.Sentence, mode: 'speeded acceptability', display: "in place", wordTime: 450}
+        "DashedSentenceBig", {s: variable.Sentence, display: "in place", wordTime: 450}
         ,
         
         "PennController", PennController(
@@ -431,7 +430,7 @@ PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
 
 PennController.Template("stim_controlraising.csv", variable => ["trial_controlraising",
 
-        "DashedSentenceBig", {s: variable.Sentence, mode: 'speeded acceptability', display: "in place", wordTime: 450}
+        "DashedSentenceBig", {s: variable.Sentence, display: "in place", wordTime: 450}
         ,
         
         "PennController", PennController(
