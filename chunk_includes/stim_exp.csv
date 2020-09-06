@@ -1,97 +1,97 @@
 Group,Item,VerbType,SentenceVoice,Sentence,prob1,prob2,prob3,prob4,wait1,wait2,wait3,wait4
-A,1,SubjExp,Active,That's the actor that the director particularly appreciates. *****,1 + 7 = ,10 &ndash; 2 = ,,,2500,2500,50,50
-B,1,ObjExp,Active,That's the actor that the director particularly bothers. *****,1 + 7 = ,10 &ndash; 2 = ,,,2500,2500,50,50
-C,1,SubjExp,Passive,That's the director that the actor is particularly appreciated by. *****,1 + 7 = ,10 &ndash; 2 = ,,,2500,2500,50,50
-D,1,ObjExp,Passive,That's the director that the actor is particularly bothered by. *****,1 + 7 = ,10 &ndash; 2 = ,,,2500,2500,50,50
-D,2,SubjExp,Active,That's the park ranger that the tourist particularly appreciates. *****,7 + 1 = ,5 &ndash; 4 = ,8 + 9 = ,,2500,2500,2500,50
-A,2,ObjExp,Passive,That's the tourist that the park ranger is particularly bothered by. *****,7 + 1 = ,5 &ndash; 4 = ,8 + 9 = ,,2500,2500,2500,50
-B,2,SubjExp,Passive,That's the tourist that the park ranger is particularly appreciated by. *****,7 + 1 = ,5 &ndash; 4 = ,8 + 9 = ,,2500,2500,2500,50
-C,2,ObjExp,Active,That's the park ranger that the tourist particularly bothers. *****,7 + 1 = ,5 &ndash; 4 = ,8 + 9 = ,,2500,2500,2500,50
-C,3,SubjExp,Active,That's the student that the professor somewhat admires. *****,12 &ndash; 8 = ,3 + 5 = ,7 + 9 = ,5 + 7 = ,2500,2500,2500,2500
-D,3,ObjExp,Active,That's the student that the professor somewhat frightens. *****,12 &ndash; 8 = ,3 + 5 = ,7 + 9 = ,5 + 7 = ,2500,2500,2500,2500
-A,3,SubjExp,Passive,That's the professor that the student is somewhat admired by. *****,12 &ndash; 8 = ,3 + 5 = ,7 + 9 = ,5 + 7 = ,2500,2500,2500,2500
-B,3,ObjExp,Passive,That's the professor that the student is somewhat frightened by. *****,12 &ndash; 8 = ,3 + 5 = ,7 + 9 = ,5 + 7 = ,2500,2500,2500,2500
-B,4,SubjExp,Active,That's the player that the coach somewhat admires. *****,10 &ndash; 9 = ,2 + 1 = ,,,2500,2500,50,50
-C,4,ObjExp,Passive,That's the coach that the player is somewhat frightened by. *****,10 &ndash; 9 = ,2 + 1 = ,,,2500,2500,50,50
-D,4,SubjExp,Passive,That's the coach that the player is somewhat admired by. *****,10 &ndash; 9 = ,2 + 1 = ,,,2500,2500,50,50
-A,4,ObjExp,Active,That's the player that the coach somewhat frightens. *****,10 &ndash; 9 = ,2 + 1 = ,,,2500,2500,50,50
-A,5,SubjExp,Active,That's the musician that the conductor greatly adores. *****,6 + 5 = ,4 + 7 = ,4 + 7 = ,,2500,2500,2500,50
-B,5,ObjExp,Active,That's the musician that the conductor greatly disappoints. *****,6 + 5 = ,4 + 7 = ,4 + 7 = ,,2500,2500,2500,50
-C,5,SubjExp,Passive,That's the conductor that the musician is greatly adored by. *****,6 + 5 = ,4 + 7 = ,4 + 7 = ,,2500,2500,2500,50
-D,5,ObjExp,Passive,That's the conductor that the musician is greatly disappointed by. *****,6 + 5 = ,4 + 7 = ,4 + 7 = ,,2500,2500,2500,50
-D,6,SubjExp,Active,That's the carpenter that the contractor greatly adores. *****,8 &ndash; 3 = ,3 + 7 = ,7 &ndash; 3 = ,5 &ndash; 1 = ,2500,2500,2500,2500
-A,6,ObjExp,Passive,That's the contractor that the carpenter is greatly disappointed by. *****,8 &ndash; 3 = ,3 + 7 = ,7 &ndash; 3 = ,5 &ndash; 1 = ,2500,2500,2500,2500
-B,6,SubjExp,Passive,That's the contractor that the carpenter is greatly adored by. *****,8 &ndash; 3 = ,3 + 7 = ,7 &ndash; 3 = ,5 &ndash; 1 = ,2500,2500,2500,2500
-C,6,ObjExp,Active,That's the carpenter that the contractor greatly disappoints. *****,8 &ndash; 3 = ,3 + 7 = ,7 &ndash; 3 = ,5 &ndash; 1 = ,2500,2500,2500,2500
-C,7,SubjExp,Active,That's the greengrocer that the tailor really fancies. *****,12 &ndash; 11 = ,10 &ndash; 1 = ,,,2500,2500,50,50
-D,7,ObjExp,Active,That's the greengrocer that the tailor really bores. *****,12 &ndash; 11 = ,10 &ndash; 1 = ,,,2500,2500,50,50
-A,7,SubjExp,Passive,That's the tailor that the greengrocer is really fancied by. *****,12 &ndash; 11 = ,10 &ndash; 1 = ,,,2500,2500,50,50
-B,7,ObjExp,Passive,That's the tailor that the greengrocer is really bored by. *****,12 &ndash; 11 = ,10 &ndash; 1 = ,,,2500,2500,50,50
-B,8,SubjExp,Active,That's the bellboy that the guest really fancies. *****,3 + 1 = ,11 + 10 = ,7 + 7 = ,,2500,2500,2500,50
-C,8,ObjExp,Passive,That's the guest that the bellboy is really bored by. *****,3 + 1 = ,11 + 10 = ,7 + 7 = ,,2500,2500,2500,50
-D,8,SubjExp,Passive,That's the guest that the bellboy is really fancied by. *****,3 + 1 = ,11 + 10 = ,7 + 7 = ,,2500,2500,2500,50
-A,8,ObjExp,Active,That's the bellboy that the guest really bores. *****,3 + 1 = ,11 + 10 = ,7 + 7 = ,,2500,2500,2500,50
-A,9,SubjExp,Active,That's the student that the teacher somewhat tolerates. *****,3 + 10 = ,2 &ndash; 1 = ,1 + 2 = ,6 + 1 = ,2500,2500,2500,2500
-B,9,ObjExp,Active,That's the student that the teacher somewhat terrifies. *****,3 + 10 = ,2 &ndash; 1 = ,1 + 2 = ,6 + 1 = ,2500,2500,2500,2500
-C,9,SubjExp,Passive,That's the teacher that the student is somewhat tolerated by. *****,3 + 10 = ,2 &ndash; 1 = ,1 + 2 = ,6 + 1 = ,2500,2500,2500,2500
-D,9,ObjExp,Passive,That's the teacher that the student is somewhat terrified by. *****,3 + 10 = ,2 &ndash; 1 = ,1 + 2 = ,6 + 1 = ,2500,2500,2500,2500
-D,10,SubjExp,Active,That's the concierge that the executive somewhat tolerates. *****,7 &ndash; 3 = ,12 &ndash; 3 = ,,,2500,2500,50,50
-A,10,ObjExp,Passive,That's the executive that the concierge is somewhat terrified by. *****,7 &ndash; 3 = ,12 &ndash; 3 = ,,,2500,2500,50,50
-B,10,SubjExp,Passive,That's the executive that the concierge is somewhat tolerated by. *****,7 &ndash; 3 = ,12 &ndash; 3 = ,,,2500,2500,50,50
-C,10,ObjExp,Active,That's the concierge that the executive somewhat terrifies. *****,7 &ndash; 3 = ,12 &ndash; 3 = ,,,2500,2500,50,50
-C,11,SubjExp,Active,That's the stockbroker that the celebrity really envies. *****,12 &ndash; 9 = ,12 &ndash; 6 = ,1 + 7 = ,,2500,2500,2500,50
-D,11,ObjExp,Active,That's the stockbroker that the celebrity really interests. *****,12 &ndash; 9 = ,12 &ndash; 6 = ,1 + 7 = ,,2500,2500,2500,50
-A,11,SubjExp,Passive,That's the celebrity that the stockbroker is really envied by. *****,12 &ndash; 9 = ,12 &ndash; 6 = ,1 + 7 = ,,2500,2500,2500,50
-B,11,ObjExp,Passive,That's the celebrity that the stockbroker is really interested by. *****,12 &ndash; 9 = ,12 &ndash; 6 = ,1 + 7 = ,,2500,2500,2500,50
-B,12,SubjExp,Active,That's the farmer that the shopkeeper really envies. *****,11 &ndash; 4 = ,7 &ndash; 4 = ,4 + 7 = ,10 + 9 = ,2500,2500,2500,2500
-C,12,ObjExp,Passive,That's the shopkeeper that the farmer is really interested by. *****,11 &ndash; 4 = ,7 &ndash; 4 = ,4 + 7 = ,10 + 9 = ,2500,2500,2500,2500
-D,12,SubjExp,Passive,That's the shopkeeper that the farmer is really envied by. *****,11 &ndash; 4 = ,7 &ndash; 4 = ,4 + 7 = ,10 + 9 = ,2500,2500,2500,2500
-A,12,ObjExp,Active,That's the farmer that the shopkeeper really interests. *****,11 &ndash; 4 = ,7 &ndash; 4 = ,4 + 7 = ,10 + 9 = ,2500,2500,2500,2500
-A,13,SubjExp,Active,That's the daughter that the father particularly cherishes. *****,11 + 12 = ,11 &ndash; 4 = ,,,2500,2500,50,50
-B,13,ObjExp,Active,That's the daughter that the father particularly annoys. *****,11 + 12 = ,11 &ndash; 4 = ,,,2500,2500,50,50
-C,13,SubjExp,Passive,That's the father that the daughter is particularly cherished by. *****,11 + 12 = ,11 &ndash; 4 = ,,,2500,2500,50,50
-D,13,ObjExp,Passive,That's the father that the daughter is particularly annoyed by. *****,11 + 12 = ,11 &ndash; 4 = ,,,2500,2500,50,50
-D,14,SubjExp,Active,That's the colleague that the scientist particularly cherishes. *****,8 &ndash; 5 = ,6 + 9 = ,10 + 10 = ,,2500,2500,2500,50
-A,14,ObjExp,Passive,That's the scientist that the colleague is particularly annoyed by. *****,8 &ndash; 5 = ,6 + 9 = ,10 + 10 = ,,2500,2500,2500,50
-B,14,SubjExp,Passive,That's the scientist that the colleague is particularly cherished by. *****,8 &ndash; 5 = ,6 + 9 = ,10 + 10 = ,,2500,2500,2500,50
-C,14,ObjExp,Active,That's the colleague that the scientist particularly annoys. *****,8 &ndash; 5 = ,6 + 9 = ,10 + 10 = ,,2500,2500,2500,50
-C,15,SubjExp,Active,That's the barber that the stylist really dislikes. *****,10 &ndash; 1 = ,6 &ndash; 3 = ,10 &ndash; 2 = ,11 &ndash; 10 = ,2500,2500,2500,2500
-D,15,ObjExp,Active,That's the barber that the stylist really amazes. *****,10 &ndash; 1 = ,6 &ndash; 3 = ,10 &ndash; 2 = ,11 &ndash; 10 = ,2500,2500,2500,2500
-A,15,SubjExp,Passive,That's the stylist that the barber is really disliked by. *****,10 &ndash; 1 = ,6 &ndash; 3 = ,10 &ndash; 2 = ,11 &ndash; 10 = ,2500,2500,2500,2500
-B,15,ObjExp,Passive,That's the stylist that the barber is really amazed by. *****,10 &ndash; 1 = ,6 &ndash; 3 = ,10 &ndash; 2 = ,11 &ndash; 10 = ,2500,2500,2500,2500
-B,16,SubjExp,Active,That's the painter that the artist really dislikes. *****,10 + 7 = ,10 &ndash; 8 = ,,,2500,2500,50,50
-C,16,ObjExp,Passive,That's the artist that the painter is really amazed by. *****,10 + 7 = ,10 &ndash; 8 = ,,,2500,2500,50,50
-D,16,SubjExp,Passive,That's the artist that the painter is really disliked by. *****,10 + 7 = ,10 &ndash; 8 = ,,,2500,2500,50,50
-A,16,ObjExp,Active,That's the painter that the artist really amazes. *****,10 + 7 = ,10 &ndash; 8 = ,,,2500,2500,50,50
-A,17,SubjExp,Active,That's the thief that the cop strongly loathes. *****,3 + 1 = ,6 + 5 = ,7 &ndash; 4 = ,,2500,2500,2500,50
-B,17,ObjExp,Active,That's the thief that the cop strongly irritates. *****,3 + 1 = ,6 + 5 = ,7 &ndash; 4 = ,,2500,2500,2500,50
-C,17,SubjExp,Passive,That's the cop that the thief is strongly loathed by. *****,3 + 1 = ,6 + 5 = ,7 &ndash; 4 = ,,2500,2500,2500,50
-D,17,ObjExp,Passive,That's the cop that the thief is strongly irritated by. *****,3 + 1 = ,6 + 5 = ,7 &ndash; 4 = ,,2500,2500,2500,50
-D,18,SubjExp,Active,That's the minister that the king strongly loathes. *****,2 &ndash; 1 = ,6 + 3 = ,11 &ndash; 5 = ,10 &ndash; 9 = ,2500,2500,2500,2500
-A,18,ObjExp,Passive,That's the king that the minister is strongly irritated by. *****,2 &ndash; 1 = ,6 + 3 = ,11 &ndash; 5 = ,10 &ndash; 9 = ,2500,2500,2500,2500
-B,18,SubjExp,Passive,That's the king that the minister is strongly loathed by. *****,2 &ndash; 1 = ,6 + 3 = ,11 &ndash; 5 = ,10 &ndash; 9 = ,2500,2500,2500,2500
-C,18,ObjExp,Active,That's the minister that the king strongly irritates. *****,2 &ndash; 1 = ,6 + 3 = ,11 &ndash; 5 = ,10 &ndash; 9 = ,2500,2500,2500,2500
-C,19,SubjExp,Active,That's the boss that the employee somewhat dreads. *****,10 &ndash; 4 = ,2 + 4 = ,,,2500,2500,50,50
-D,19,ObjExp,Active,That's the boss that the employee somewhat depresses. *****,10 &ndash; 4 = ,2 + 4 = ,,,2500,2500,50,50
-A,19,SubjExp,Passive,That's the employee that the boss is somewhat dreaded by. *****,10 &ndash; 4 = ,2 + 4 = ,,,2500,2500,50,50
-B,19,ObjExp,Passive,That's the employee that the boss is somewhat depressed by. *****,10 &ndash; 4 = ,2 + 4 = ,,,2500,2500,50,50
-B,20,SubjExp,Active,That's the editor that the journalist somewhat dreads. *****,12 &ndash; 3 = ,9 + 12 = ,10 &ndash; 3 = ,,2500,2500,2500,50
-C,20,ObjExp,Passive,That's the journalist that the editor is somewhat depressed by. *****,12 &ndash; 3 = ,9 + 12 = ,10 &ndash; 3 = ,,2500,2500,2500,50
-D,20,SubjExp,Passive,That's the journalist that the editor is somewhat dreaded by. *****,12 &ndash; 3 = ,9 + 12 = ,10 &ndash; 3 = ,,2500,2500,2500,50
-A,20,ObjExp,Active,That's the editor that the journalist somewhat depresses. *****,12 &ndash; 3 = ,9 + 12 = ,10 &ndash; 3 = ,,2500,2500,2500,50
-A,21,SubjExp,Active,That's the butcher that the monk greatly detests. *****,9 &ndash; 7 = ,3 &ndash; 1 = ,11 &ndash; 10 = ,7 + 3 = ,2500,2500,2500,2500
-B,21,ObjExp,Active,That's the butcher that the monk greatly intrigues. *****,9 &ndash; 7 = ,3 &ndash; 1 = ,11 &ndash; 10 = ,7 + 3 = ,2500,2500,2500,2500
-C,21,SubjExp,Passive,That's the monk that the butcher is greatly detested by. *****,9 &ndash; 7 = ,3 &ndash; 1 = ,11 &ndash; 10 = ,7 + 3 = ,2500,2500,2500,2500
-D,21,ObjExp,Passive,That's the monk that the butcher is greatly intrigued by. *****,9 &ndash; 7 = ,3 &ndash; 1 = ,11 &ndash; 10 = ,7 + 3 = ,2500,2500,2500,2500
-D,22,SubjExp,Active,That's the auditor that the businessman greatly detests. *****,8 + 6 = ,8 &ndash; 4 = ,,,2500,2500,50,50
-A,22,ObjExp,Passive,That's the businessman that the auditor is greatly intrigued by. *****,8 + 6 = ,8 &ndash; 4 = ,,,2500,2500,50,50
-B,22,SubjExp,Passive,That's the businessman that the auditor is greatly detested by. *****,8 + 6 = ,8 &ndash; 4 = ,,,2500,2500,50,50
-C,22,ObjExp,Active,That's the auditor that the businessman greatly intrigues. *****,8 + 6 = ,8 &ndash; 4 = ,,,2500,2500,50,50
-C,23,SubjExp,Active,That's the client that the consultant really respects. *****,8 &ndash; 7 = ,7 &ndash; 3 = ,1 + 10 = ,,2500,2500,2500,50
-D,23,ObjExp,Active,That's the client that the consultant really impresses. *****,8 &ndash; 7 = ,7 &ndash; 3 = ,1 + 10 = ,,2500,2500,2500,50
-A,23,SubjExp,Passive,That's the consultant that the client is really respected by. *****,8 &ndash; 7 = ,7 &ndash; 3 = ,1 + 10 = ,,2500,2500,2500,50
-B,23,ObjExp,Passive,That's the consultant that the client is really impressed by. *****,8 &ndash; 7 = ,7 &ndash; 3 = ,1 + 10 = ,,2500,2500,2500,50
-B,24,SubjExp,Active,That's the agent that the rock star really respects. *****,11 &ndash; 4 = ,2 + 3 = ,8 &ndash; 2 = ,5 &ndash; 1 = ,2500,2500,2500,2500
-C,24,ObjExp,Passive,That's the rock star that the agent is really impressed by. *****,11 &ndash; 4 = ,2 + 3 = ,8 &ndash; 2 = ,5 &ndash; 1 = ,2500,2500,2500,2500
-D,24,SubjExp,Passive,That's the rock star that the agent is really respected by. *****,11 &ndash; 4 = ,2 + 3 = ,8 &ndash; 2 = ,5 &ndash; 1 = ,2500,2500,2500,2500
-A,24,ObjExp,Active,That's the agent that the rock star really impresses. *****,11 &ndash; 4 = ,2 + 3 = ,8 &ndash; 2 = ,5 &ndash; 1 = ,2500,2500,2500,2500
+A,1,SubjExp,Active,That's the actor that the director particularly appreciates. *****,1 + 7 = ,10 &ndash; 2 = ,,,2000,2000,50,50
+B,1,ObjExp,Active,That's the actor that the director particularly bothers. *****,1 + 7 = ,10 &ndash; 2 = ,,,2000,2000,50,50
+C,1,SubjExp,Passive,That's the director that the actor is particularly appreciated by. *****,1 + 7 = ,10 &ndash; 2 = ,,,2000,2000,50,50
+D,1,ObjExp,Passive,That's the director that the actor is particularly bothered by. *****,1 + 7 = ,10 &ndash; 2 = ,,,2000,2000,50,50
+D,2,SubjExp,Active,That's the park ranger that the tourist particularly appreciates. *****,7 + 1 = ,5 &ndash; 4 = ,8 + 9 = ,,2000,2000,2000,50
+A,2,ObjExp,Passive,That's the tourist that the park ranger is particularly bothered by. *****,7 + 1 = ,5 &ndash; 4 = ,8 + 9 = ,,2000,2000,2000,50
+B,2,SubjExp,Passive,That's the tourist that the park ranger is particularly appreciated by. *****,7 + 1 = ,5 &ndash; 4 = ,8 + 9 = ,,2000,2000,2000,50
+C,2,ObjExp,Active,That's the park ranger that the tourist particularly bothers. *****,7 + 1 = ,5 &ndash; 4 = ,8 + 9 = ,,2000,2000,2000,50
+C,3,SubjExp,Active,That's the student that the professor somewhat admires. *****,12 &ndash; 8 = ,3 + 5 = ,7 + 9 = ,5 + 7 = ,2000,2000,2000,2000
+D,3,ObjExp,Active,That's the student that the professor somewhat frightens. *****,12 &ndash; 8 = ,3 + 5 = ,7 + 9 = ,5 + 7 = ,2000,2000,2000,2000
+A,3,SubjExp,Passive,That's the professor that the student is somewhat admired by. *****,12 &ndash; 8 = ,3 + 5 = ,7 + 9 = ,5 + 7 = ,2000,2000,2000,2000
+B,3,ObjExp,Passive,That's the professor that the student is somewhat frightened by. *****,12 &ndash; 8 = ,3 + 5 = ,7 + 9 = ,5 + 7 = ,2000,2000,2000,2000
+B,4,SubjExp,Active,That's the player that the coach somewhat admires. *****,10 &ndash; 9 = ,2 + 1 = ,,,2000,2000,50,50
+C,4,ObjExp,Passive,That's the coach that the player is somewhat frightened by. *****,10 &ndash; 9 = ,2 + 1 = ,,,2000,2000,50,50
+D,4,SubjExp,Passive,That's the coach that the player is somewhat admired by. *****,10 &ndash; 9 = ,2 + 1 = ,,,2000,2000,50,50
+A,4,ObjExp,Active,That's the player that the coach somewhat frightens. *****,10 &ndash; 9 = ,2 + 1 = ,,,2000,2000,50,50
+A,5,SubjExp,Active,That's the musician that the conductor greatly adores. *****,6 + 5 = ,4 + 7 = ,4 + 7 = ,,2000,2000,2000,50
+B,5,ObjExp,Active,That's the musician that the conductor greatly disappoints. *****,6 + 5 = ,4 + 7 = ,4 + 7 = ,,2000,2000,2000,50
+C,5,SubjExp,Passive,That's the conductor that the musician is greatly adored by. *****,6 + 5 = ,4 + 7 = ,4 + 7 = ,,2000,2000,2000,50
+D,5,ObjExp,Passive,That's the conductor that the musician is greatly disappointed by. *****,6 + 5 = ,4 + 7 = ,4 + 7 = ,,2000,2000,2000,50
+D,6,SubjExp,Active,That's the carpenter that the contractor greatly adores. *****,8 &ndash; 3 = ,3 + 7 = ,7 &ndash; 3 = ,5 &ndash; 1 = ,2000,2000,2000,2000
+A,6,ObjExp,Passive,That's the contractor that the carpenter is greatly disappointed by. *****,8 &ndash; 3 = ,3 + 7 = ,7 &ndash; 3 = ,5 &ndash; 1 = ,2000,2000,2000,2000
+B,6,SubjExp,Passive,That's the contractor that the carpenter is greatly adored by. *****,8 &ndash; 3 = ,3 + 7 = ,7 &ndash; 3 = ,5 &ndash; 1 = ,2000,2000,2000,2000
+C,6,ObjExp,Active,That's the carpenter that the contractor greatly disappoints. *****,8 &ndash; 3 = ,3 + 7 = ,7 &ndash; 3 = ,5 &ndash; 1 = ,2000,2000,2000,2000
+C,7,SubjExp,Active,That's the greengrocer that the tailor really fancies. *****,12 &ndash; 11 = ,10 &ndash; 1 = ,,,2000,2000,50,50
+D,7,ObjExp,Active,That's the greengrocer that the tailor really bores. *****,12 &ndash; 11 = ,10 &ndash; 1 = ,,,2000,2000,50,50
+A,7,SubjExp,Passive,That's the tailor that the greengrocer is really fancied by. *****,12 &ndash; 11 = ,10 &ndash; 1 = ,,,2000,2000,50,50
+B,7,ObjExp,Passive,That's the tailor that the greengrocer is really bored by. *****,12 &ndash; 11 = ,10 &ndash; 1 = ,,,2000,2000,50,50
+B,8,SubjExp,Active,That's the bellboy that the guest really fancies. *****,3 + 1 = ,11 + 10 = ,7 + 7 = ,,2000,2000,2000,50
+C,8,ObjExp,Passive,That's the guest that the bellboy is really bored by. *****,3 + 1 = ,11 + 10 = ,7 + 7 = ,,2000,2000,2000,50
+D,8,SubjExp,Passive,That's the guest that the bellboy is really fancied by. *****,3 + 1 = ,11 + 10 = ,7 + 7 = ,,2000,2000,2000,50
+A,8,ObjExp,Active,That's the bellboy that the guest really bores. *****,3 + 1 = ,11 + 10 = ,7 + 7 = ,,2000,2000,2000,50
+A,9,SubjExp,Active,That's the student that the teacher somewhat tolerates. *****,3 + 10 = ,2 &ndash; 1 = ,1 + 2 = ,6 + 1 = ,2000,2000,2000,2000
+B,9,ObjExp,Active,That's the student that the teacher somewhat terrifies. *****,3 + 10 = ,2 &ndash; 1 = ,1 + 2 = ,6 + 1 = ,2000,2000,2000,2000
+C,9,SubjExp,Passive,That's the teacher that the student is somewhat tolerated by. *****,3 + 10 = ,2 &ndash; 1 = ,1 + 2 = ,6 + 1 = ,2000,2000,2000,2000
+D,9,ObjExp,Passive,That's the teacher that the student is somewhat terrified by. *****,3 + 10 = ,2 &ndash; 1 = ,1 + 2 = ,6 + 1 = ,2000,2000,2000,2000
+D,10,SubjExp,Active,That's the concierge that the executive somewhat tolerates. *****,7 &ndash; 3 = ,12 &ndash; 3 = ,,,2000,2000,50,50
+A,10,ObjExp,Passive,That's the executive that the concierge is somewhat terrified by. *****,7 &ndash; 3 = ,12 &ndash; 3 = ,,,2000,2000,50,50
+B,10,SubjExp,Passive,That's the executive that the concierge is somewhat tolerated by. *****,7 &ndash; 3 = ,12 &ndash; 3 = ,,,2000,2000,50,50
+C,10,ObjExp,Active,That's the concierge that the executive somewhat terrifies. *****,7 &ndash; 3 = ,12 &ndash; 3 = ,,,2000,2000,50,50
+C,11,SubjExp,Active,That's the stockbroker that the celebrity really envies. *****,12 &ndash; 9 = ,12 &ndash; 6 = ,1 + 7 = ,,2000,2000,2000,50
+D,11,ObjExp,Active,That's the stockbroker that the celebrity really interests. *****,12 &ndash; 9 = ,12 &ndash; 6 = ,1 + 7 = ,,2000,2000,2000,50
+A,11,SubjExp,Passive,That's the celebrity that the stockbroker is really envied by. *****,12 &ndash; 9 = ,12 &ndash; 6 = ,1 + 7 = ,,2000,2000,2000,50
+B,11,ObjExp,Passive,That's the celebrity that the stockbroker is really interested by. *****,12 &ndash; 9 = ,12 &ndash; 6 = ,1 + 7 = ,,2000,2000,2000,50
+B,12,SubjExp,Active,That's the farmer that the shopkeeper really envies. *****,11 &ndash; 4 = ,7 &ndash; 4 = ,4 + 7 = ,10 + 9 = ,2000,2000,2000,2000
+C,12,ObjExp,Passive,That's the shopkeeper that the farmer is really interested by. *****,11 &ndash; 4 = ,7 &ndash; 4 = ,4 + 7 = ,10 + 9 = ,2000,2000,2000,2000
+D,12,SubjExp,Passive,That's the shopkeeper that the farmer is really envied by. *****,11 &ndash; 4 = ,7 &ndash; 4 = ,4 + 7 = ,10 + 9 = ,2000,2000,2000,2000
+A,12,ObjExp,Active,That's the farmer that the shopkeeper really interests. *****,11 &ndash; 4 = ,7 &ndash; 4 = ,4 + 7 = ,10 + 9 = ,2000,2000,2000,2000
+A,13,SubjExp,Active,That's the daughter that the father particularly cherishes. *****,11 + 12 = ,11 &ndash; 4 = ,,,2000,2000,50,50
+B,13,ObjExp,Active,That's the daughter that the father particularly annoys. *****,11 + 12 = ,11 &ndash; 4 = ,,,2000,2000,50,50
+C,13,SubjExp,Passive,That's the father that the daughter is particularly cherished by. *****,11 + 12 = ,11 &ndash; 4 = ,,,2000,2000,50,50
+D,13,ObjExp,Passive,That's the father that the daughter is particularly annoyed by. *****,11 + 12 = ,11 &ndash; 4 = ,,,2000,2000,50,50
+D,14,SubjExp,Active,That's the colleague that the scientist particularly cherishes. *****,8 &ndash; 5 = ,6 + 9 = ,10 + 10 = ,,2000,2000,2000,50
+A,14,ObjExp,Passive,That's the scientist that the colleague is particularly annoyed by. *****,8 &ndash; 5 = ,6 + 9 = ,10 + 10 = ,,2000,2000,2000,50
+B,14,SubjExp,Passive,That's the scientist that the colleague is particularly cherished by. *****,8 &ndash; 5 = ,6 + 9 = ,10 + 10 = ,,2000,2000,2000,50
+C,14,ObjExp,Active,That's the colleague that the scientist particularly annoys. *****,8 &ndash; 5 = ,6 + 9 = ,10 + 10 = ,,2000,2000,2000,50
+C,15,SubjExp,Active,That's the barber that the stylist really dislikes. *****,10 &ndash; 1 = ,6 &ndash; 3 = ,10 &ndash; 2 = ,11 &ndash; 10 = ,2000,2000,2000,2000
+D,15,ObjExp,Active,That's the barber that the stylist really amazes. *****,10 &ndash; 1 = ,6 &ndash; 3 = ,10 &ndash; 2 = ,11 &ndash; 10 = ,2000,2000,2000,2000
+A,15,SubjExp,Passive,That's the stylist that the barber is really disliked by. *****,10 &ndash; 1 = ,6 &ndash; 3 = ,10 &ndash; 2 = ,11 &ndash; 10 = ,2000,2000,2000,2000
+B,15,ObjExp,Passive,That's the stylist that the barber is really amazed by. *****,10 &ndash; 1 = ,6 &ndash; 3 = ,10 &ndash; 2 = ,11 &ndash; 10 = ,2000,2000,2000,2000
+B,16,SubjExp,Active,That's the painter that the artist really dislikes. *****,10 + 7 = ,10 &ndash; 8 = ,,,2000,2000,50,50
+C,16,ObjExp,Passive,That's the artist that the painter is really amazed by. *****,10 + 7 = ,10 &ndash; 8 = ,,,2000,2000,50,50
+D,16,SubjExp,Passive,That's the artist that the painter is really disliked by. *****,10 + 7 = ,10 &ndash; 8 = ,,,2000,2000,50,50
+A,16,ObjExp,Active,That's the painter that the artist really amazes. *****,10 + 7 = ,10 &ndash; 8 = ,,,2000,2000,50,50
+A,17,SubjExp,Active,That's the thief that the cop strongly loathes. *****,3 + 1 = ,6 + 5 = ,7 &ndash; 4 = ,,2000,2000,2000,50
+B,17,ObjExp,Active,That's the thief that the cop strongly irritates. *****,3 + 1 = ,6 + 5 = ,7 &ndash; 4 = ,,2000,2000,2000,50
+C,17,SubjExp,Passive,That's the cop that the thief is strongly loathed by. *****,3 + 1 = ,6 + 5 = ,7 &ndash; 4 = ,,2000,2000,2000,50
+D,17,ObjExp,Passive,That's the cop that the thief is strongly irritated by. *****,3 + 1 = ,6 + 5 = ,7 &ndash; 4 = ,,2000,2000,2000,50
+D,18,SubjExp,Active,That's the minister that the king strongly loathes. *****,2 &ndash; 1 = ,6 + 3 = ,11 &ndash; 5 = ,10 &ndash; 9 = ,2000,2000,2000,2000
+A,18,ObjExp,Passive,That's the king that the minister is strongly irritated by. *****,2 &ndash; 1 = ,6 + 3 = ,11 &ndash; 5 = ,10 &ndash; 9 = ,2000,2000,2000,2000
+B,18,SubjExp,Passive,That's the king that the minister is strongly loathed by. *****,2 &ndash; 1 = ,6 + 3 = ,11 &ndash; 5 = ,10 &ndash; 9 = ,2000,2000,2000,2000
+C,18,ObjExp,Active,That's the minister that the king strongly irritates. *****,2 &ndash; 1 = ,6 + 3 = ,11 &ndash; 5 = ,10 &ndash; 9 = ,2000,2000,2000,2000
+C,19,SubjExp,Active,That's the boss that the employee somewhat dreads. *****,10 &ndash; 4 = ,2 + 4 = ,,,2000,2000,50,50
+D,19,ObjExp,Active,That's the boss that the employee somewhat depresses. *****,10 &ndash; 4 = ,2 + 4 = ,,,2000,2000,50,50
+A,19,SubjExp,Passive,That's the employee that the boss is somewhat dreaded by. *****,10 &ndash; 4 = ,2 + 4 = ,,,2000,2000,50,50
+B,19,ObjExp,Passive,That's the employee that the boss is somewhat depressed by. *****,10 &ndash; 4 = ,2 + 4 = ,,,2000,2000,50,50
+B,20,SubjExp,Active,That's the editor that the journalist somewhat dreads. *****,12 &ndash; 3 = ,9 + 12 = ,10 &ndash; 3 = ,,2000,2000,2000,50
+C,20,ObjExp,Passive,That's the journalist that the editor is somewhat depressed by. *****,12 &ndash; 3 = ,9 + 12 = ,10 &ndash; 3 = ,,2000,2000,2000,50
+D,20,SubjExp,Passive,That's the journalist that the editor is somewhat dreaded by. *****,12 &ndash; 3 = ,9 + 12 = ,10 &ndash; 3 = ,,2000,2000,2000,50
+A,20,ObjExp,Active,That's the editor that the journalist somewhat depresses. *****,12 &ndash; 3 = ,9 + 12 = ,10 &ndash; 3 = ,,2000,2000,2000,50
+A,21,SubjExp,Active,That's the butcher that the monk greatly detests. *****,9 &ndash; 7 = ,3 &ndash; 1 = ,11 &ndash; 10 = ,7 + 3 = ,2000,2000,2000,2000
+B,21,ObjExp,Active,That's the butcher that the monk greatly intrigues. *****,9 &ndash; 7 = ,3 &ndash; 1 = ,11 &ndash; 10 = ,7 + 3 = ,2000,2000,2000,2000
+C,21,SubjExp,Passive,That's the monk that the butcher is greatly detested by. *****,9 &ndash; 7 = ,3 &ndash; 1 = ,11 &ndash; 10 = ,7 + 3 = ,2000,2000,2000,2000
+D,21,ObjExp,Passive,That's the monk that the butcher is greatly intrigued by. *****,9 &ndash; 7 = ,3 &ndash; 1 = ,11 &ndash; 10 = ,7 + 3 = ,2000,2000,2000,2000
+D,22,SubjExp,Active,That's the auditor that the businessman greatly detests. *****,8 + 6 = ,8 &ndash; 4 = ,,,2000,2000,50,50
+A,22,ObjExp,Passive,That's the businessman that the auditor is greatly intrigued by. *****,8 + 6 = ,8 &ndash; 4 = ,,,2000,2000,50,50
+B,22,SubjExp,Passive,That's the businessman that the auditor is greatly detested by. *****,8 + 6 = ,8 &ndash; 4 = ,,,2000,2000,50,50
+C,22,ObjExp,Active,That's the auditor that the businessman greatly intrigues. *****,8 + 6 = ,8 &ndash; 4 = ,,,2000,2000,50,50
+C,23,SubjExp,Active,That's the client that the consultant really respects. *****,8 &ndash; 7 = ,7 &ndash; 3 = ,1 + 10 = ,,2000,2000,2000,50
+D,23,ObjExp,Active,That's the client that the consultant really impresses. *****,8 &ndash; 7 = ,7 &ndash; 3 = ,1 + 10 = ,,2000,2000,2000,50
+A,23,SubjExp,Passive,That's the consultant that the client is really respected by. *****,8 &ndash; 7 = ,7 &ndash; 3 = ,1 + 10 = ,,2000,2000,2000,50
+B,23,ObjExp,Passive,That's the consultant that the client is really impressed by. *****,8 &ndash; 7 = ,7 &ndash; 3 = ,1 + 10 = ,,2000,2000,2000,50
+B,24,SubjExp,Active,That's the agent that the rock star really respects. *****,11 &ndash; 4 = ,2 + 3 = ,8 &ndash; 2 = ,5 &ndash; 1 = ,2000,2000,2000,2000
+C,24,ObjExp,Passive,That's the rock star that the agent is really impressed by. *****,11 &ndash; 4 = ,2 + 3 = ,8 &ndash; 2 = ,5 &ndash; 1 = ,2000,2000,2000,2000
+D,24,SubjExp,Passive,That's the rock star that the agent is really respected by. *****,11 &ndash; 4 = ,2 + 3 = ,8 &ndash; 2 = ,5 &ndash; 1 = ,2000,2000,2000,2000
+A,24,ObjExp,Active,That's the agent that the rock star really impresses. *****,11 &ndash; 4 = ,2 + 3 = ,8 &ndash; 2 = ,5 &ndash; 1 = ,2000,2000,2000,2000
