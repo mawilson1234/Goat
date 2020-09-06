@@ -1,4 +1,4 @@
-Item_num,Sentence,prob1,prob2,prob3,prob4,wait1,wait2,wait3,wait4
+Item,Sentence,prob1,prob2,prob3,prob4,wait1,wait2,wait3,wait4
 prac1,***** The student in the math class graduated. *****,11 + 2 = ,9 &ndash; 4 = ,,,2500,2500,50,50
 prac2,***** The professor in the brown suit started the class. *****,1 + 3 = ,6 + 1 = ,10 &ndash; 2 = ,,2500,2500,2500,50
 prac3,***** The novelist with an odd name wrote a new book. *****,4 &ndash; 1 = ,8 &ndash; 5 = ,11 &ndash; 10 = ,,2500,2500,2500,50
