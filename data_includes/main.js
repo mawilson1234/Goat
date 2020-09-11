@@ -71,7 +71,7 @@ newTrial("instruction",
 
 PennController.Template("practice.csv", variable => ["trial_prac",
 
-        "DashedSentenceBig", {s: variable.Sentence, display: "in place", wordTime: 450}
+        "DashedSentenceBig", {s: variable.Sentence, display: "in place"}
         ,
         
         "PennController", PennController(
@@ -146,7 +146,7 @@ PennController.Template("practice.csv", variable => ["trial_prac",
                 .print()
             ,
         
-            newTimer("recall_timer",6000)
+            newTimer("recall_timer",6500)
                 .start()
                 .wait()
             ,
@@ -198,7 +198,7 @@ newTrial("instruction2",
 )
 
 PennController.Template("stim_exp.csv", variable => ["trial_exp",
-        "DashedSentenceBig", {s: variable.Sentence, display: "in place", wordTime: 450}
+        "DashedSentenceBig", {s: variable.Sentence, display: "in place"}
         ,
         
         "PennController", PennController(
@@ -274,7 +274,7 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
                 .print()
             ,
         
-            newTimer("recall_timer",6000)
+            newTimer("recall_timer",6500)
                 .start()
                 .wait()
             ,
@@ -313,7 +313,7 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
 
 PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
 
-        "DashedSentenceBig", {s: variable.Sentence, display: "in place", wordTime: 450}
+        "DashedSentenceBig", {s: variable.Sentence, display: "in place"}
         ,
         
         "PennController", PennController(
