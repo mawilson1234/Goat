@@ -389,7 +389,7 @@ PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
                 .print()
             ,
         
-            newTimer("recall_timer",6000)
+            newTimer("recall_timer",6500)
                 .start()
                 .wait()
             ,
