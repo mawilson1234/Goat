@@ -7,7 +7,7 @@ PennController.SetCounter( "setcounter" );
 Sequence("setcounter","intro","consent", "recording", "instruction", randomize("trial_prac"), "warn", "instruction2", rshuffle("trial_exp", "trial_gardenpath", "trial_controlraising"), "feedback", SendResults(), "bye")
 
 newTrial( "intro" ,
-    newText("Welcome","<p>Welcome! To participate in this experiment, you must meet the following requirements.<p>(1) Your computer must have a microphone (built-in microphone is fine).<p>(2) Your browser must be either Chrome or Firefox. You CANNOT use Safari for this experiment.<p>(3) You must turn off music/video (e.g., YouTube) played on the same computer you are using to take this experiment.<p>(4) Please note that you will be asked to speak aloud during the experiment (recite simple sentences and answer simple math problems verbally). Your speech will be recorded and that's our critical data.<p>If you meet these requirements, please enter your native language and Prolific ID below and click Next:</p>")
+    newText("Welcome","<p>Welcome! To participate in this experiment, you must meet the following requirements.<p>(1) Your computer must have a microphone (built-in microphone is fine).<p>(2) Your browser must be either Chrome or Firefox. You CANNOT use Safari for this experiment.<p>(3) You must turn off music/video (e.g., YouTube) played on the same computer you are using to take this experiment.<p>(4) Please note that you will be asked to speak aloud during the experiment (recite simple sentences and pronounce fake words aloud). Your speech will be recorded and that's our critical data.<p>If you meet these requirements, please enter your native language and Prolific ID below and click Next:</p>")
         .settings.css("font-size", "2em")
         .settings.css("margin","50px")
         .print()
@@ -54,7 +54,7 @@ newTrial( "consent" ,
 InitiateRecorder("https://umassgaplab.net/experiment/PCIbex_server.php", "This experiment collects audio recordings. <strong>Once you grant it access to your recording device, you will be notified of whether you are being recorded by a label at the top of the page.</strong>").label("recording")
 
 newTrial("instruction",
-    newText("Instr", "<p>In this experiment, you will first read a sentence in a word-by-word fashion. Each word will be flashed on the screen. Your task is to read the sentence silently and <b>memorize the sentence for later recall.</b></p> <p>After you see each sentence, you will see a series of 2&ndash;4 simple math problems. Your task is to <b>answer each math problem out loud</b> as it is presented to you <b>as soon as possible</b>. After you have answered the 2&ndash;4 problems, you will see the text 'recall' appear on the screen. When you see 'recall' appear, you should recite the sentence you memorized <b>aloud</b>, as soon as possible.</p> <p><b>TIP: Many people find it helpful to try to visualize the situations described by sentences when memorizing them.</b></p>")
+    newText("Instr", "<p>In this experiment, you will first read a sentence in a word-by-word fashion. When you are finished reading one word, you should press the Space bar to proceed, which will replace the previous word with the next one.<p>Your task is to read the sentence silently and <b>memorize the sentence for later recall.</b></p> <p>After you see each sentence, you will see five stars, like this '*****'. When you are ready, you should press the Space bar again to proceed to the second task, which is to <b>pronounce each fake word out loud</b> as it is presented to you <b>as soon as possible</b>. If you are unsure about how to pronounce a particular fake word, just try your best. After you have pronounced the fake words, you will see the text 'recall' appear on the screen. When you see 'recall' appear, you should recite the sentence you memorized earlier <b>aloud</b>, as soon as possible.</p> <p><b>TIP: Many people find it helpful to try to visualize the situations described by sentences when memorizing them.</b></p>")
         .settings.css("font-size", "2em")
         .settings.css("margin", "80px")
         .print()
@@ -85,7 +85,7 @@ PennController.Template("practice.csv", variable => ["trial_prac",
                 .wait()
             ,
         
-            newText("prob1_prac", variable.prob1)
+            newText("word1", variable.word1)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -95,11 +95,11 @@ PennController.Template("practice.csv", variable => ["trial_prac",
                 .wait()
             ,
             
-            getText("prob1_prac")
+            getText("word1")
                 .remove()
             ,
             
-            newText("prob2_prac", variable.prob2)
+            newText("word2", variable.word2)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -108,11 +108,11 @@ PennController.Template("practice.csv", variable => ["trial_prac",
                 .start()
             ,
             
-            getText("prob2_prac")
+            getText("word2")
                 .remove()
             ,
             
-            newText("prob3_prac", variable.prob3)
+            newText("word3", variable.word3)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -122,11 +122,11 @@ PennController.Template("practice.csv", variable => ["trial_prac",
                 .wait()
             ,
             
-            getText("prob3_prac")
+            getText("word3")
                 .remove()
             , 
             
-            newText("prob4_prac", variable.prob4)
+            newText("word4", variable.word4)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -136,7 +136,7 @@ PennController.Template("practice.csv", variable => ["trial_prac",
                 .wait()
             ,
             
-            getText("prob4_prac")
+            getText("word4")
                 .remove()
             ,            
             
@@ -182,7 +182,7 @@ newTrial( "warn",
 )
 
 newTrial("instruction2",
-    newText("Instr2", "<p> Now, you are ready to start the experiment! Remember, your task is to:</p><p>(1) Silently read and memorize sentences presented in a word-by-word fashion.<p>(2) Answer aloud each math problem presented after the sentence.<p>(3) When you see the words 'Recall Sentence,' say the sentence you memorized out loud.")
+    newText("Instr2", "<p> Now, you are ready to start the experiment! Remember, your task is to:</p><p>(1) Silently read and memorize sentences presented in a word-by-word fashion.<p>(2) Read aloud each fake word presented after the sentence.<p>(3) When you see the words 'Recall Sentence,' say the sentence you memorized out loud.")
         .settings.css("font-size", "2em")
         .settings.css("margin", "80px")
         .print()
@@ -212,7 +212,7 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
                 .wait()
             ,
         
-            newText("prob1", variable.prob1)
+            newText("word1", variable.word1)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -222,11 +222,11 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
                 .wait()
             ,
             
-            getText("prob1")
+            getText("word1")
                 .remove()
             ,
             
-            newText("prob2", variable.prob2)
+            newText("word2", variable.word2)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -236,11 +236,11 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
                 .wait()
             ,
             
-            getText("prob2")
+            getText("word2")
                 .remove()
             ,
             
-            newText("prob3", variable.prob3)
+            newText("word3", variable.word3)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -250,11 +250,11 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
                 .wait()
             ,
             
-            getText("prob3")
+            getText("word3")
                 .remove()
             , 
             
-            newText("prob4", variable.prob4)
+            newText("word4", variable.word4)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -264,7 +264,7 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
                 .wait()
             ,
             
-            getText("prob4")
+            getText("word4")
                 .remove()
             ,            
             
@@ -300,10 +300,10 @@ PennController.Template("stim_exp.csv", variable => ["trial_exp",
         .log("VerbType", variable.VerbType)
         .log("SentenceVoice", variable.SentenceVoice)
         .log("Sentence", variable.Sentence)
-        .log("prob1", variable.prob1)
-        .log("prob2", variable.prob2)
-        .log("prob3", variable.prob3)
-        .log("prob4", variable.prob4)
+        .log("word1", variable.word1)
+        .log("word2", variable.word2)
+        .log("word3", variable.word3)
+        .log("word4", variable.word4)
         .log("wait1", variable.wait1)
         .log("wait2", variable.wait2)
         .log("wait3", variable.wait3)
@@ -327,7 +327,7 @@ PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
                 .wait()
             ,
         
-            newText("prob1", variable.prob1)
+            newText("word1", variable.word1)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -337,11 +337,11 @@ PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
                 .wait()
             ,
             
-            getText("prob1")
+            getText("word1")
                 .remove()
             ,
             
-            newText("prob2", variable.prob2)
+            newText("word2", variable.word2)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -351,11 +351,11 @@ PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
                 .wait()
             ,
             
-            getText("prob2")
+            getText("word2")
                 .remove()
             ,
             
-            newText("prob3", variable.prob3)
+            newText("word3", variable.word3)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -365,11 +365,11 @@ PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
                 .wait()
             ,
             
-            getText("prob3")
+            getText("word3")
                 .remove()
             , 
             
-            newText("prob4", variable.prob4)
+            newText("word4", variable.word4)
                 .settings.css("font-size", "2em")
                 .print()
             ,
@@ -379,7 +379,7 @@ PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
                 .wait()
             ,
             
-            getText("prob4")
+            getText("word4")
                 .remove()
             ,            
             
@@ -417,10 +417,10 @@ PennController.Template("stim_gardenpath.csv", variable => ["trial_gardenpath",
         .log("SCPr", variable.SCPr)
         .log("Bias", variable.Bias)
         .log("Sentence", variable.Sentence)
-        .log("prob1", variable.prob1)
-        .log("prob2", variable.prob2)
-        .log("prob3", variable.prob3)
-        .log("prob4", variable.prob4)
+        .log("word1", variable.word1)
+        .log("word2", variable.word2)
+        .log("word3", variable.word3)
+        .log("word4", variable.word4)
         .log("wait1", variable.wait1)
         .log("wait2", variable.wait2)
         .log("wait3", variable.wait3)
