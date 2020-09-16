@@ -3,26 +3,26 @@ A,1,SubjExp,Active,That's the actor that the director particularly appreciates. 
 B,1,ObjExp,Active,That's the actor that the director particularly bothers. *****,thaky,pesin,,,2000,2000,50,50
 C,1,SubjExp,Passive,That's the director that the actor is particularly appreciated by. *****,thaky,pesin,,,2000,2000,50,50
 D,1,ObjExp,Passive,That's the director that the actor is particularly bothered by. *****,thaky,pesin,,,2000,2000,50,50
-D,2,SubjExp,Active,That's the park ranger that the tourist particularly appreciates. *****,smarve,sigid,bofied,,2000,2000,2000,50
-A,2,ObjExp,Passive,That's the tourist that the park ranger is particularly bothered by. *****,smarve,sigid,bofied,,2000,2000,2000,50
-B,2,SubjExp,Passive,That's the tourist that the park ranger is particularly appreciated by. *****,smarve,sigid,bofied,,2000,2000,2000,50
-C,2,ObjExp,Active,That's the park ranger that the tourist particularly bothers. *****,smarve,sigid,bofied,,2000,2000,2000,50
-C,3,SubjExp,Active,That's the student that the professor somewhat admires. *****,thaken,ugdate,fidnap,deors,2000,2000,2000,2000
-D,3,ObjExp,Active,That's the student that the professor somewhat frightens. *****,thaken,ugdate,fidnap,deors,2000,2000,2000,2000
-A,3,SubjExp,Passive,That's the professor that the student is somewhat admired by. *****,thaken,ugdate,fidnap,deors,2000,2000,2000,2000
-B,3,ObjExp,Passive,That's the professor that the student is somewhat frightened by. *****,thaken,ugdate,fidnap,deors,2000,2000,2000,2000
-B,4,SubjExp,Active,That's the player that the coach somewhat admires. *****,ebics,snorls,,,2000,2000,50,50
-C,4,ObjExp,Passive,That's the coach that the player is somewhat frightened by. *****,ebics,snorls,,,2000,2000,50,50
-D,4,SubjExp,Passive,That's the coach that the player is somewhat admired by. *****,ebics,snorls,,,2000,2000,50,50
-A,4,ObjExp,Active,That's the player that the coach somewhat frightens. *****,ebics,snorls,,,2000,2000,50,50
-A,5,SubjExp,Active,That's the musician that the conductor greatly adores. *****,rilica,topeta,avency,,2000,2000,2000,50
-B,5,ObjExp,Active,That's the musician that the conductor greatly disappoints. *****,rilica,topeta,avency,,2000,2000,2000,50
-C,5,SubjExp,Passive,That's the conductor that the musician is greatly adored by. *****,rilica,topeta,avency,,2000,2000,2000,50
-D,5,ObjExp,Passive,That's the conductor that the musician is greatly disappointed by. *****,rilica,topeta,avency,,2000,2000,2000,50
-D,6,SubjExp,Active,That's the carpenter that the contractor greatly adores. *****,allual,afain,tesdar,nackey,2000,2000,2000,2000
-A,6,ObjExp,Passive,That's the contractor that the carpenter is greatly disappointed by. *****,allual,afain,tesdar,nackey,2000,2000,2000,2000
-B,6,SubjExp,Passive,That's the contractor that the carpenter is greatly adored by. *****,allual,afain,tesdar,nackey,2000,2000,2000,2000
-C,6,ObjExp,Active,That's the carpenter that the contractor greatly disappoints. *****,allual,afain,tesdar,nackey,2000,2000,2000,2000
+D,2,SubjExp,Active,That's the park ranger that the tourist particularly appreciates. *****,smarve,bofied,sigid,,2000,2000,2000,50
+A,2,ObjExp,Passive,That's the tourist that the park ranger is particularly bothered by. *****,smarve,bofied,sigid,,2000,2000,2000,50
+B,2,SubjExp,Passive,That's the tourist that the park ranger is particularly appreciated by. *****,smarve,bofied,sigid,,2000,2000,2000,50
+C,2,ObjExp,Active,That's the park ranger that the tourist particularly bothers. *****,smarve,bofied,sigid,,2000,2000,2000,50
+C,3,SubjExp,Active,That's the student that the professor somewhat admires. *****,ugdate,fidnap,deors,thaken,2000,2000,2000,2000
+D,3,ObjExp,Active,That's the student that the professor somewhat frightens. *****,ugdate,fidnap,deors,thaken,2000,2000,2000,2000
+A,3,SubjExp,Passive,That's the professor that the student is somewhat admired by. *****,ugdate,fidnap,deors,thaken,2000,2000,2000,2000
+B,3,ObjExp,Passive,That's the professor that the student is somewhat frightened by. *****,ugdate,fidnap,deors,thaken,2000,2000,2000,2000
+B,4,SubjExp,Active,That's the player that the coach somewhat admires. *****,snorls,ebics,,,2000,2000,50,50
+C,4,ObjExp,Passive,That's the coach that the player is somewhat frightened by. *****,snorls,ebics,,,2000,2000,50,50
+D,4,SubjExp,Passive,That's the coach that the player is somewhat admired by. *****,snorls,ebics,,,2000,2000,50,50
+A,4,ObjExp,Active,That's the player that the coach somewhat frightens. *****,snorls,ebics,,,2000,2000,50,50
+A,5,SubjExp,Active,That's the musician that the conductor greatly adores. *****,rilica,avency,afain,,2000,2000,2000,50
+B,5,ObjExp,Active,That's the musician that the conductor greatly disappoints. *****,rilica,avency,afain,,2000,2000,2000,50
+C,5,SubjExp,Passive,That's the conductor that the musician is greatly adored by. *****,rilica,avency,afain,,2000,2000,2000,50
+D,5,ObjExp,Passive,That's the conductor that the musician is greatly disappointed by. *****,rilica,avency,afain,,2000,2000,2000,50
+D,6,SubjExp,Active,That's the carpenter that the contractor greatly adores. *****,allual,topeta,tesdar,nackey,2000,2000,2000,2000
+A,6,ObjExp,Passive,That's the contractor that the carpenter is greatly disappointed by. *****,allual,topeta,tesdar,nackey,2000,2000,2000,2000
+B,6,SubjExp,Passive,That's the contractor that the carpenter is greatly adored by. *****,allual,topeta,tesdar,nackey,2000,2000,2000,2000
+C,6,ObjExp,Active,That's the carpenter that the contractor greatly disappoints. *****,allual,topeta,tesdar,nackey,2000,2000,2000,2000
 C,7,SubjExp,Active,That's the greengrocer that the tailor really fancies. *****,faress,spoku,,,2000,2000,50,50
 D,7,ObjExp,Active,That's the greengrocer that the tailor really bores. *****,faress,spoku,,,2000,2000,50,50
 A,7,SubjExp,Passive,That's the tailor that the greengrocer is really fancied by. *****,faress,spoku,,,2000,2000,50,50
@@ -35,34 +35,34 @@ A,9,SubjExp,Active,That's the student that the teacher somewhat tolerates. *****
 B,9,ObjExp,Active,That's the student that the teacher somewhat terrifies. *****,oimrig,servar,tabial,arning,2000,2000,2000,2000
 C,9,SubjExp,Passive,That's the teacher that the student is somewhat tolerated by. *****,oimrig,servar,tabial,arning,2000,2000,2000,2000
 D,9,ObjExp,Passive,That's the teacher that the student is somewhat terrified by. *****,oimrig,servar,tabial,arning,2000,2000,2000,2000
-D,10,SubjExp,Active,That's the concierge that the executive somewhat tolerates. *****,hegacy,spusts,,,2000,2000,50,50
-A,10,ObjExp,Passive,That's the executive that the concierge is somewhat terrified by. *****,hegacy,spusts,,,2000,2000,50,50
-B,10,SubjExp,Passive,That's the executive that the concierge is somewhat tolerated by. *****,hegacy,spusts,,,2000,2000,50,50
-C,10,ObjExp,Active,That's the concierge that the executive somewhat terrifies. *****,hegacy,spusts,,,2000,2000,50,50
-C,11,SubjExp,Active,That's the stockbroker that the celebrity really envies. *****,bropic,lovud,abead,,2000,2000,2000,50
-D,11,ObjExp,Active,That's the stockbroker that the celebrity really interests. *****,bropic,lovud,abead,,2000,2000,2000,50
-A,11,SubjExp,Passive,That's the celebrity that the stockbroker is really envied by. *****,bropic,lovud,abead,,2000,2000,2000,50
-B,11,ObjExp,Passive,That's the celebrity that the stockbroker is really interested by. *****,bropic,lovud,abead,,2000,2000,2000,50
-B,12,SubjExp,Active,That's the farmer that the shopkeeper really envies. *****,helong,lenice,plymie,murm,2000,2000,2000,2000
-C,12,ObjExp,Passive,That's the shopkeepr that the farmer is really interested by. *****,helong,lenice,plymie,murm,2000,2000,2000,2000
-D,12,SubjExp,Passive,That's the shopkeeper that the farmer is really envied by. *****,helong,lenice,plymie,murm,2000,2000,2000,2000
-A,12,ObjExp,Active,That's the farmer that the shopkeeper really interests. *****,helong,lenice,plymie,murm,2000,2000,2000,2000
-A,13,SubjExp,Active,That's the daughter that the father particularly cherishes. *****,polony,torpse,,,2000,2000,50,50
-B,13,ObjExp,Active,That's the daughter that the father particularly annoys. *****,polony,torpse,,,2000,2000,50,50
-C,13,SubjExp,Passive,That's the father that the daughter is particularly cherished by. *****,polony,torpse,,,2000,2000,50,50
-D,13,ObjExp,Passive,That's the father that the daughter is particularly annoyed by. *****,polony,torpse,,,2000,2000,50,50
-D,14,SubjExp,Active,That's the colleague that the scientist particularly cherishes. *****,stovas,harent,lorbet,,2000,2000,2000,50
-A,14,ObjExp,Passive,That's the scientist that the colleague is particularly annoyed by. *****,stovas,harent,lorbet,,2000,2000,2000,50
-B,14,SubjExp,Passive,That's the scientist that the colleague is particularly cherished by. *****,stovas,harent,lorbet,,2000,2000,2000,50
-C,14,ObjExp,Active,That's the colleague that the scientist particularly annoys. *****,stovas,harent,lorbet,,2000,2000,2000,50
+D,10,SubjExp,Active,That's the concierge that the executive somewhat tolerates. *****,spusts,abead,,,2000,2000,50,50
+A,10,ObjExp,Passive,That's the executive that the concierge is somewhat terrified by. *****,spusts,abead,,,2000,2000,50,50
+B,10,SubjExp,Passive,That's the executive that the concierge is somewhat tolerated by. *****,spusts,abead,,,2000,2000,50,50
+C,10,ObjExp,Active,That's the concierge that the executive somewhat terrifies. *****,spusts,abead,,,2000,2000,50,50
+C,11,SubjExp,Active,That's the stockbroker that the celebrity really envies. *****,hegacy,bropic,lovud,,2000,2000,2000,50
+D,11,ObjExp,Active,That's the stockbroker that the celebrity really interests. *****,hegacy,bropic,lovud,,2000,2000,2000,50
+A,11,SubjExp,Passive,That's the celebrity that the stockbroker is really envied by. *****,hegacy,bropic,lovud,,2000,2000,2000,50
+B,11,ObjExp,Passive,That's the celebrity that the stockbroker is really interested by. *****,hegacy,bropic,lovud,,2000,2000,2000,50
+B,12,SubjExp,Active,That's the farmer that the shopkeeper really envies. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
+C,12,ObjExp,Passive,That's the shopkeepr that the farmer is really interested by. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
+D,12,SubjExp,Passive,That's the shopkeeper that the farmer is really envied by. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
+A,12,ObjExp,Active,That's the farmer that the shopkeeper really interests. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
+A,13,SubjExp,Active,That's the daughter that the father particularly cherishes. *****,torpse,stovas,,,2000,2000,50,50
+B,13,ObjExp,Active,That's the daughter that the father particularly annoys. *****,torpse,stovas,,,2000,2000,50,50
+C,13,SubjExp,Passive,That's the father that the daughter is particularly cherished by. *****,torpse,stovas,,,2000,2000,50,50
+D,13,ObjExp,Passive,That's the father that the daughter is particularly annoyed by. *****,torpse,stovas,,,2000,2000,50,50
+D,14,SubjExp,Active,That's the colleague that the scientist particularly cherishes. *****,polony,harent,lorbet,,2000,2000,2000,50
+A,14,ObjExp,Passive,That's the scientist that the colleague is particularly annoyed by. *****,polony,harent,lorbet,,2000,2000,2000,50
+B,14,SubjExp,Passive,That's the scientist that the colleague is particularly cherished by. *****,polony,harent,lorbet,,2000,2000,2000,50
+C,14,ObjExp,Active,That's the colleague that the scientist particularly annoys. *****,polony,harent,lorbet,,2000,2000,2000,50
 C,15,SubjExp,Active,That's the barber that the stylist really dislikes. *****,inramy,therns,ildent,oggly,2000,2000,2000,2000
 D,15,ObjExp,Active,That's the barber that the stylist really amazes. *****,inramy,therns,ildent,oggly,2000,2000,2000,2000
 A,15,SubjExp,Passive,That's the stylist that the barber is really disliked by. *****,inramy,therns,ildent,oggly,2000,2000,2000,2000
 B,15,ObjExp,Passive,That's the stylist that the barber is really amazed by. *****,inramy,therns,ildent,oggly,2000,2000,2000,2000
-B,16,SubjExp,Active,That's the painter that the artist really dislikes. *****,dingla,nubed,,,2000,2000,50,50
-C,16,ObjExp,Passive,That's the artist that the painter is really amazed by. *****,dingla,nubed,,,2000,2000,50,50
-D,16,SubjExp,Passive,That's the artist that the painter is really disliked by. *****,dingla,nubed,,,2000,2000,50,50
-A,16,ObjExp,Active,That's the painter that the artist really amazes. *****,dingla,nubed,,,2000,2000,50,50
+B,16,SubjExp,Active,That's the painter that the artist really dislikes. *****,nubed,dingla,,,2000,2000,50,50
+C,16,ObjExp,Passive,That's the artist that the painter is really amazed by. *****,nubed,dingla,,,2000,2000,50,50
+D,16,SubjExp,Passive,That's the artist that the painter is really disliked by. *****,nubed,dingla,,,2000,2000,50,50
+A,16,ObjExp,Active,That's the painter that the artist really amazes. *****,nubed,dingla,,,2000,2000,50,50
 A,17,SubjExp,Active,That's the thief that the cop strongly loathes. *****,sharok,gercer,dovern,,2000,2000,2000,50
 B,17,ObjExp,Active,That's the thief that the cop strongly irritates. *****,sharok,gercer,dovern,,2000,2000,2000,50
 C,17,SubjExp,Passive,That's the cop that the thief is strongly loathed by. *****,sharok,gercer,dovern,,2000,2000,2000,50
@@ -115,10 +115,10 @@ A,29,SubjExp,Active,That's the lawyer that the judge greatly esteems. *****,jigs
 B,29,ObjExp,Active,That's the lawyer that the judge greatly appalls. *****,jigsly,toddre,furvy,,2000,2000,2000,50
 C,29,SubjExp,Passive,That's the judge that the lawyer is greatly esteemed by. *****,jigsly,toddre,furvy,,2000,2000,2000,50
 D,29,ObjExp,Passive,That's the judge that the lawyer is greatly appalled by. *****,jigsly,toddre,furvy,,2000,2000,2000,50
-D,30,SubjExp,Active,That's the florist that the gardener greatly esteems. *****,glybol,buned,gulbs,sordes,2000,2000,2000,2000
-A,30,ObjExp,Passive,That's the gardener that the florist is greatly appalled by. *****,glybol,buned,gulbs,sordes,2000,2000,2000,2000
-B,30,SubjExp,Passive,That's the gardener that the florist is greatly esteemed by. *****,glybol,buned,gulbs,sordes,2000,2000,2000,2000
-C,30,ObjExp,Active,That's the florist that the gardener greatly appalls. *****,glybol,buned,gulbs,sordes,2000,2000,2000,2000
+D,30,SubjExp,Active,That's the florist that the gardener greatly esteems. *****,buned,gulbs,sordes,glybol,2000,2000,2000,2000
+A,30,ObjExp,Passive,That's the gardener that the florist is greatly appalled by. *****,buned,gulbs,sordes,glybol,2000,2000,2000,2000
+B,30,SubjExp,Passive,That's the gardener that the florist is greatly esteemed by. *****,buned,gulbs,sordes,glybol,2000,2000,2000,2000
+C,30,ObjExp,Active,That's the florist that the gardener greatly appalls. *****,buned,gulbs,sordes,glybol,2000,2000,2000,2000
 C,31,SubjExp,Active,That's the client that the consultant really respects. *****,pucts,milak,,,2000,2000,50,50
 D,31,ObjExp,Active,That's the client that the consultant really impresses. *****,pucts,milak,,,2000,2000,50,50
 A,31,SubjExp,Passive,That's the consultant that the client is really respected by. *****,pucts,milak,,,2000,2000,50,50
