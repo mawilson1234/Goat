@@ -1,5 +1,5 @@
 PennController.ResetPrefix(null) // Shorten command names (keep this line here)
-//PennController.DebugOff()
+PennController.DebugOff()
 
 //var counterOverride = 1;
 PennController.SetCounter( "setcounter" );
