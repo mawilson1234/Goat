@@ -7,18 +7,10 @@ PennController.SetCounter( "setcounter" );
 Sequence("setcounter","intro","consent", "recording", "instruction", randomize("trial_prac"), "warn", "instruction2", rshuffle("trial_exp", "trial_gardenpath", "trial_controlraising"), "feedback", SendResults(), "bye")
 
 newTrial( "intro" ,
-    newText("Welcome","<p>Welcome! To participate in this experiment, you must meet the following requirements.<p>(1) Your computer must have a microphone (built-in microphone is fine).<p>(2) Your browser must be either Chrome or Firefox. You CANNOT use Safari for this experiment.<p>(3) You must turn off music/video (e.g., YouTube) played on the same computer you are using to take this experiment.<p>(4) Please note that you will be asked to speak aloud during the experiment (recite simple sentences and pronounce fake words aloud). Your speech will be recorded and that's our critical data.<p>If you meet these requirements, please enter your native language and Prolific ID below and click Next:")
+    newText("Welcome","<p>Welcome! To participate in this experiment, you must meet the following requirements.<p>(1) Your computer must have a microphone (built-in microphone is fine).<p>(2) Your browser must be either Chrome or Firefox. You CANNOT use Safari for this experiment.<p>(3) You must turn off music/video (e.g., YouTube) played on the same computer you are using to take this experiment.<p>(4) Please note that you will be asked to speak aloud during the experiment (recite simple sentences and pronounce fake words aloud). Your speech will be recorded and that's our critical data.<p>If you meet these requirements, please enter your Prolific ID below and click Next:")
         .settings.css("font-size", "2em")
         .settings.css("margin","50px")
         .print()
-    ,
-    newTextInput("Language")
-        .before(newText("lang", "Your native language:<p>").settings.css("font-size", "2em").settings.css("margin","50px"))
-        .settings.css("font-size", "2em")
-        .settings.css('width', '30%')
-        .settings.css('margin', 'auto')
-        .print()
-        .log()
     ,
     newTextInput("ProlificID")
         .before(newText("ID", "Your Prolific ID:<p>").settings.css("font-size", "2em").settings.css("margin", "50px"))
