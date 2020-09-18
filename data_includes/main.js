@@ -453,7 +453,7 @@ PennController("feedback",
 
 // Spaces and linebreaks don't matter to the script: we've only been using them for the sake of readability
 newTrial("bye" ,
-    newText("Thank you for your participation! Please go to the following web page to verify your participation: <a href='https://app.prolific.co/submissions/complete?cc=BB30EE9E'> https://app.prolific.co/submissions/complete?cc=BB30EE9E</a>.")
+    newText("Thank you for your participation! Please go to the following web page to verify your participation: <a href='https://app.prolific.co/submissions/complete?cc=728AA2CF'> https://app.prolific.co/submissions/complete?cc=728AA2CF</a>.")
         .print(),
         
     newButton()
