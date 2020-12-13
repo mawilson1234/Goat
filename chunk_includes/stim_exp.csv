@@ -44,7 +44,7 @@ D,11,ObjExp,Active,That's the stockbroker that the celebrity really interests. *
 A,11,SubjExp,Passive,That's the celebrity that the stockbroker is really envied by. *****,hegacy,bropic,lovud,,2000,2000,2000,50
 B,11,ObjExp,Passive,That's the celebrity that the stockbroker is really interested by. *****,hegacy,bropic,lovud,,2000,2000,2000,50
 B,12,SubjExp,Active,That's the farmer that the shopkeeper really envies. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
-C,12,ObjExp,Passive,That's the shopkeepr that the farmer is really interested by. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
+C,12,ObjExp,Passive,That's the shopkeeper that the farmer is really interested by. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
 D,12,SubjExp,Passive,That's the shopkeeper that the farmer is really envied by. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
 A,12,ObjExp,Active,That's the farmer that the shopkeeper really interests. *****,lenice,plymie,murm,helong,2000,2000,2000,2000
 A,13,SubjExp,Active,That's the daughter that the father particularly cherishes. *****,torpse,stovas,,,2000,2000,50,50

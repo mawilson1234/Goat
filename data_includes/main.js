@@ -435,6 +435,17 @@ PennController("feedback",
         .print()
     ,
 
+    newText("prev_exp", "Did you participate in any previous study to Prolific that contained sentences very similar to the ones in this study? (Your answer to this question will not affect your payment in any way.)")
+        .print()
+    ,
+
+    newTextInput('prev_exp', "")
+        .log()
+        .lines(0)
+        .size(400, 200)
+        .print()
+    ,
+
     newButton("send", "Send")
         .settings.size(240,48)
         .settings.css("font-size", "2em")
