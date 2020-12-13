@@ -1,8 +1,9 @@
 PennController.ResetPrefix(null) // Shorten command names (keep this line here)
 PennController.DebugOff()
 
-//var counterOverride = 1;
 PennController.SetCounter( "setcounter" );
+
+var counterOverride = 0
 
 Sequence("setcounter","intro","consent", "recording", "instruction", randomize("trial_prac"), "warn", "instruction2", rshuffle("trial_exp", "trial_gardenpath", "trial_controlraising"), "feedback", SendResults(), "bye")
 
