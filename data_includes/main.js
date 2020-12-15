@@ -436,7 +436,7 @@ PennController("feedback",
         .print()
     ,
 
-    newText("prev_exp", "Did you participate in any previous study to Prolific that contained sentences very similar to the ones in this study? (Your answer to this question will not affect your payment in any way.)")
+    newText("prev_exp", "Did you participate in any previous study on Prolific that contained sentences very similar to the ones in this study? (Your answer to this question will not affect your payment in any way.)")
         .print()
     ,
 
